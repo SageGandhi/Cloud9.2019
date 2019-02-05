@@ -1,0 +1,16 @@
+============================================================================================================================================================
+Spring/Spring Data/Jpa/Hibernate/Data Versioning Using Liquibase.
+Q01:Association/Aggregation/Composition
+============================================================================================================================================================
+01.Spring 5 Source Code Level Is Minimum Java 8.Support Kotlin For Functional Programming.Added Reactive Programming Model.Testing With Junit 5 & Extentions.
+02.Component Index Instead Of Classpath Scanning[Create META-INF/spring.components Via Annotation Processing In Compile/Build Time] 
+    With Help Of org.springframework:spring-context-indexer.
+03.http://maven.apache.org/ref/3.5.0/maven-core/lifecycles.html|https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#Lifecycle_Reference
+    Maven Build LifeCycle[Default/Clean/Site]->Multiple LifeCycle Stages[Ex. Default LifeCycle Contains Validate/Compile/Test/Package/Verify/Install/Deploy]
+    Build Plugin Defined Inside <Build> Tag,Reporting Plugin Defined Inside <Reporting> Tag.Plugin May Have Multiple Goal Attached To Stages.
+    [Compile Plugin=>Compile/TestCompile Goal].Use View->Tool Windows->Maven In Intellij For Viewing LifeCycle & Plugins.
+04.Logger Have 4 Component->Loggers[Capturing Logging Information],Appenders[Publishing Captured Information To Various Preferred Destination],
+    Layouts[Output Style],Filters[Implementing Filtering Policy].Trace,Debug,Info,Warn,Error,Off[Mnemonic TraDeIn War Off].Logback Try TYo Find 
+    Any Of The Following FileName[logback-test.xml,logback.groovy,logback.xml]For Configuration.If No File Found,Logback Try Any Implementation 
+    Class Of Configurator,Else Use BasicConfigurator To Send Log To Console.[https://logback.qos.ch/manual/layouts.html#conversionWord]
+05.Association, Aggregation and Composition:Black Diamond In Uml Is For Composition.Without Diamond Association.Hollow Diamond Is Aggregation.
