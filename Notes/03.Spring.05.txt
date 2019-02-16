@@ -14,3 +14,12 @@ Q01:Association/Aggregation/Composition
     Any Of The Following FileName[logback-test.xml,logback.groovy,logback.xml]For Configuration.If No File Found,Logback Try Any Implementation 
     Class Of Configurator,Else Use BasicConfigurator To Send Log To Console.[https://logback.qos.ch/manual/layouts.html#conversionWord]
 05.Association, Aggregation and Composition:Black Diamond In Uml Is For Composition.Without Diamond Association.Hollow Diamond Is Aggregation.
+06.Pom(Project Object Model) Reference=>https://maven.apache.org/pom.html.Maven Repository [https://mvnrepository.com/]
+07.Use ConfigurableApplicationContext & ClassPathXmlApplicationContext For Initializing Context.
+08.Use Parameterized Logging In Slf4j Using {} In String Message To Interpolate.
+09.Constructor[Mandatory Field/Immutable Bean Instance/Fully Initialized] Based Dependency Injection.
+10.Setter[Optional/Mutable/Possible Re-Configuration/Re-Injection] Based Dependency Injection.
+11.BeanCurrentlyInCreationException For Circular Dependency.Class A Constructor Dependency On Class B And Class B Constructor Dependency On Class A.Use 
+    Setter Based Dependency Injection For One Of The Beans.
+
+

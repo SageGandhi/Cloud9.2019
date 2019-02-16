@@ -1,0 +1,6 @@
+01.https://www.geeksforgeeks.org/fundamentals-of-algorithms/#AnalysisofAlgorithms
+02.https://www.codewars.com/kumite?q=&language=java
+03.Install Maven In Cloud9
+    sudo apt-get remove maven2|sudo apt-get remove maven|sudo apt update|sudo apt install maven|mvn -v
+    mvn exec:java -Dexec.mainClass=edu.gandhi.prajit.spring.InitiateOnBoarding
+04.Use df Command For Disk Space Used In Linux.
